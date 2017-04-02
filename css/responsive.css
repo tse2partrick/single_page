@@ -1,0 +1,229 @@
+/* col-md */
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+	#sec-two, #sec-three, #sec-four, #sec-five{
+		height:auto;
+		padding: 50px 0;
+	}
+	#sec-two .intro, #sec-three .intro, #sec-four .intro, #sec-five .intro{
+		margin-top: 0;
+	}
+	#sec-two .intro h3, #sec-three .intro h3, #sec-four .intro h3, #sec-five .intro h3{
+		font-size: 40px;
+	}
+
+	#sec-three .function .fa{
+		font-size: 60px;
+	}
+
+	#sec-three .function h4{
+		font-size: 30px;
+	}
+
+	#sec-five .address{
+		margin-top: 50px;
+		padding-bottom: 100px;
+	}
+	#sec-five .address h3{
+		font-size: 30px;
+	}
+	#sec-five .address p{
+		font-size: 18px;
+	}
+	#sec-five .contact{
+		position: relative;
+		margin-top: 50px;
+		text-align: right;
+		padding-bottom: 100px;
+	}
+	#sec-five .contact .contact-info{
+		position: relative;
+		display: inline-block;
+		width:50%;
+		top:0px;
+		bottom:0px;
+		left:0%;
+		margin-left: 0px;
+		text-align: left;
+	}
+	#sec-five .contact .contact-info p{
+		font-size: 18px;
+	}
+	#sec-five .contact .contact-info input{
+		width:90%;
+	}
+}
+
+/* col-sm */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	#sec-two, #sec-three, #sec-four, #sec-five{
+		height:auto;
+		padding: 50px 0;
+	}
+	#sec-two .intro, #sec-three .intro, #sec-four .intro, #sec-five .intro{
+		margin-top: 0;
+	}
+
+	#sec-four .team{
+		position: relative;
+		margin: 0;
+		color:white;
+	}
+
+	#sec-four .team .team-profile{
+		display: inline-block;
+		width:120px;
+		height:120px;
+	}
+	#sec-four .team .team-profile img{
+		width:120px;
+		height:120px;
+	}
+
+	#sec-four .team .team-info{
+		position: relative;
+		display: inline-block;
+		width:200px;
+		height:0;
+		top:0;
+		padding:0;
+		margin:0;
+	}
+	#sec-four .team .team-info h3{
+		font-size: 30px;
+	}
+	#sec-four .team .team-info p{
+		font-size: 14px;
+	}
+	
+	#sec-five{
+		padding-bottom: 150px;
+	}
+	#sec-five .address{
+		margin:0;
+		margin-top: 50px;
+	}
+	#sec-five .contact{
+		margin:0;
+		margin-top: 50px;
+	}
+	#sec-five .contact .team-profile{
+		width:120px;
+		height:120px;
+	}
+	#sec-five .contact .team-profile img{
+		width:120px;
+		height:120px;
+	}
+	#sec-five .contact .contact-info{
+		position: absolute;
+		left:150px;
+		width:200px;
+	}
+	#sec-five .contact .contact-info input{
+		width:100%;
+	}
+}
+#media only for mobile and (max-width: 784px){
+
+}
+
+/* col-xs */
+@media only screen and (max-width: 767px){
+	#sec-two, #sec-three, #sec-four, #sec-five{
+		height:auto;
+		padding: 50px 0;
+	}
+
+	#sec-two .intro, #sec-three .intro, #sec-four .intro, #sec-five .intro{
+		margin-top: 0;
+	}
+	
+	#sec-two .intro h3, #sec-three .intro h3, #sec-four .intro h3, #sec-five .intro h3{
+		font-size: 30px;
+	}
+	#sec-two .intro p, #sec-three .intro p, #sec-four .intro p, #sec-five .intro p{
+		font-size: 20px;
+	}
+
+	#sec-three .function .fa{
+		font-size: 50px;
+		animation:bounceInLeft 2s;
+	}
+	#sec-three .function h4{
+		font-size: 25px;
+	}
+	#sec-three .function p{
+		font-size: 18px;
+	}
+	#sec-four .team{
+		position: relative;
+		padding-bottom: 0px;
+		height:auto;
+	}
+	#sec-four .team .team-info{
+		position: relative;
+		width:100%;
+		margin-top: -30px;
+		padding: 0;
+	}
+	#sec-four .team .team-info p{
+		font-size: 18px;
+	}
+	#sec-four .team .team-profile{
+		margin-top: 0;
+	}
+	#sec-four .team .team-profile img{
+		width:150px;
+		height:150px;
+	}
+
+
+	#sec-five .contact{
+		position: relative;
+		height:330px;
+	}
+	#sec-five .contact .team-profile{
+		position: relative;
+		width:150px;
+		height:150px;
+		text-align: center;
+		top:0px;
+	}
+	#sec-five .contact .team-profile img{
+		width:150px;
+		height:150px;
+	}
+	#sec-five .contact .contact-info{
+		position: relative;
+		width:100%;
+		margin:0;
+		left:0;
+	}
+	#sec-five .contact .contact-info input{
+		width:90%;
+	}
+	
+	#rights{
+		height: auto;
+	}
+
+	#rights p{
+		font-size: 18px;
+		margin-right: 15px;
+	}
+}
+@media only screen and (max-width: 384px){
+	#sec-two, #sec-three, #sec-four, #sec-five{
+		height:auto;
+		padding: 50px 0;
+	}
+
+	#sec-two .intro, #sec-three .intro, #sec-four .intro, #sec-five .intro{
+		margin-top: 0;
+	}
+
+	#rights p{
+		font-size: 18px;
+		margin-right: 15px;
+	}
+}
